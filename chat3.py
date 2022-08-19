@@ -11,7 +11,8 @@ for line in lines:
     s = line.split(' ')
     time = s[0][:5]
     name = s[0][5:]
-    print(time, name)
+    content = s[1]
+    print(time, name, content)
     # print(s[0][:5], s[0][5:], s[1:])
     # for line in s:
     #     s1 = line[:5]
